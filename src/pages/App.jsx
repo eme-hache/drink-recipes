@@ -1,10 +1,10 @@
-import { CategoryProvider } from './context/CategoryProvider'
-import { DrinksProvider } from './context/DrinksProvider'
-import DrinksList from './components/DrinksList'
+import { CategoryProvider } from '../context/CategoryProvider'
+import { DrinksProvider } from '../context/DrinksProvider'
+import DrinksList from '../components/DrinksList'
 import { Container } from 'react-bootstrap'
-import Modal from './components/Modal'
-import Form from './components/Form'
-import Beer from './assets/beer.png'
+import Modal from '../components/Modal'
+import Form from '../components/Form'
+import Beer from '../assets/beer.png'
 
 const App = () => {
   return (
